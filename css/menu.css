@@ -35,7 +35,7 @@ nav li a {
 
 nav li a:hover {
 	transition:color linear 0.3s;
-	color: #13C4A5;
+	color: #d45b54;
 	}
 
 /*Change color of subtext also (with slight delay) when main text is hovered*/
