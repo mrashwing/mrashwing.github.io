@@ -15,13 +15,14 @@ section {
     height: calc(100vh - 89.2px);
     margin:0;
     display: flex;
-    align-items: center;
+    align-items: start;
+    justify-content: center;
     }
 
-.header-top img {
-    width: 95vw;
-    margin-top: 50px;
-    }
+    .header-top img {
+        width: 50vw;
+        margin: auto;
+        }
 }
 
 
@@ -43,6 +44,7 @@ only screen and (max-device-width : 930px){
     section .header-top {
         height: calc(100vh - 131.6px);
     }
+
 }
 
 
@@ -51,6 +53,7 @@ only screen and (max-device-width : 580px){
     section .header-top {
         height: calc(100vh - 245.6px);
     }
+
 }
 
 
@@ -59,6 +62,21 @@ only screen and (max-device-width : 320px){
     section .header-top {
         height: calc(100vh - 240px);
     }
+
 }
+
+@media only screen and (orientation: landscape){
+        section .header-top img {
+        width: 50vw;
+    }
+}
+
+@media only screen and (orientation: portrait){
+        section .header-top img {
+        width: 95vw;
+    }
+}
+
+
 
 
