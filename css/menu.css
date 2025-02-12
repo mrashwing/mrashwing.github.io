@@ -57,7 +57,7 @@ nav li:last-child a {
 }
 
 
-@media only screen and (max-width : 1220px),
+/*@media only screen and (max-width : 1220px),
 only screen and (max-device-width : 1220px){
 	nav li a {
 		font: 400 10px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
@@ -66,10 +66,9 @@ only screen and (max-device-width : 1220px){
 	nav small {
 		font: 100 10px/1 Helvetica, Verdana, Arial, sans-serif;
 	}
-}
+}*/
 
-@media only screen and (max-width : 930px),
-only screen and (max-device-width : 930px){
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 	nav li a {
 		width: 25%;
 		border-bottom: 1px solid #fff;
@@ -85,8 +84,7 @@ only screen and (max-device-width : 930px){
 	}
 }
 
-@media only screen and (max-width : 580px),
-only screen and (max-device-width : 580px){
+@media all (max-width : 480px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 640px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 640px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 640px), only screen and (min-device-pixel-ratio: 2) and (max-width: 640px), only screen and (min-resolution: 192dpi) and (max-width: 640px), only screen and (min-resolution: 2dppx) and (max-width: 640px) {
 	nav li a {
 		width: 50%;
 		font: 400 12px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;

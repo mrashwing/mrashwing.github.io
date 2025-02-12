@@ -32,15 +32,7 @@ html {
 
 
 
-@media only screen and (max-width : 1220px),
-only screen and (max-device-width : 1220px){
-    section .header-top {
-        height: calc(100vh - 84px);
-    }
-}
-
-@media only screen and (max-width : 930px),
-only screen and (max-device-width : 930px){
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     section .header-top {
         height: calc(100vh - 131.6px);
     }
@@ -48,8 +40,7 @@ only screen and (max-device-width : 930px){
 }
 
 
-@media only screen and (max-width : 580px),
-only screen and (max-device-width : 580px){
+@media all (max-width : 480px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 640px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 640px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 640px), only screen and (min-device-pixel-ratio: 2) and (max-width: 640px), only screen and (min-resolution: 192dpi) and (max-width: 640px), only screen and (min-resolution: 2dppx) and (max-width: 640px) {
     section .header-top {
         height: calc(100vh - 245.6px);
     }
